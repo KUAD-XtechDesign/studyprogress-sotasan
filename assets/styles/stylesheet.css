@@ -1,0 +1,30 @@
+body {
+  font-family: Hiragino maru Gothic pro;
+}
+
+.report {
+	margin: 16px auto;
+	text-align: center;
+	display: block;
+}
+
+.report .text {
+	text-align: left;
+	display: inline-block;
+}
+
+.image {
+  margin:  10px auto;
+  text-align: center;
+  display: block;
+}
+/* .image .photo {
+  text-align: left;
+  display: inline-block;
+} */
+
+.movie {
+  margin: 10px auto;
+  text-align: center;
+  display: block;
+}
