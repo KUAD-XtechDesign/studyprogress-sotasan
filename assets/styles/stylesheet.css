@@ -18,13 +18,35 @@ body {
   text-align: center;
   display: block;
 }
-/* .image .photo {
+
+ /* .image .photo {
   text-align: left;
   display: inline-block;
-} */
+}*/
 
 .movie {
   margin: 10px auto;
   text-align: center;
   display: block;
+}
+
+.imgbox1{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 5px;
+  row-gap: 5px;
+  margin: 10px;
+}
+.wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.flexcontainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.frame img {
+border-radius: 10px;
 }
